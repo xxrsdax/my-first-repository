@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql，还有一个很重要的作用，后面会讲 -->
+<mapper namespace="user" >
+
+    <select id="findById" parameterType="Integer" resultType="cn.itheima.mybatis.pojo.User" >
+        <!--跟据id查询用户-->
+        select * from user where id = #{v}
+    </select>
+
+    <!--根据用户名模糊查询-->
+    <select id="findByUserName" parameterType="String" resultType="cn.itheima.mybatis.pojo.User">
+        select * from user where username like "%"#{v}"%"
+    </select>
+
+    <!--插入用户-->
+    <insert id="insertUser" parameterType="cn.itheima.mybatis.pojo.User" >
+        <selectKey resultType="Integer" keyProperty="id" order="AFTER" >
+            select LAST_INSERT_ID()  <!--  这是mysql 数据库提供的 一个聚合函数  用于查询 最后添加的 ID-->
+        </selectKey>
+        insert into user (username,birthday,address,sex) value (#{username},#{birthday},#{address},#{sex})
+    </insert>
+
+    <!--根据id更新用户-->
+    <update id="updateUserById" parameterType="cn.itheima.mybatis.pojo.User">
+        update User set  username = #{username},address=#{address},sex=#{sex},birthday=#{birthday} where id=#{id}
+    </update>
+
+    <!--根据Id删除用户-->                         <!--据说此处 Integer 是别名     自己定义的，但未配置的东西，-->
+    <delete id="deleteUserById" parameterType="Integer" >
+        delete from user where id = #{id}
+    </delete>
+
+</mapper>

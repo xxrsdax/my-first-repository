@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ax-dao/ax-dao.iml" filepath="$PROJECT_DIR$/ax-dao/ax-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ax-parent.iml" filepath="$PROJECT_DIR$/ax-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ax-pojo/ax-pojo.iml" filepath="$PROJECT_DIR$/ax-pojo/ax-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ax-service/ax-service.iml" filepath="$PROJECT_DIR$/ax-service/ax-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ax-utils/ax-utils.iml" filepath="$PROJECT_DIR$/ax-utils/ax-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ax-web/ax-web.iml" filepath="$PROJECT_DIR$/ax-web/ax-web.iml" />
+    </modules>
+  </component>
+</project>

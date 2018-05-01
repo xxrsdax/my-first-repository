@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE configuration
+                PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--  属性  -->
+    <properties resource="jdbc.properties"/> <!-- 指定的文件名 -->
+
+    <!--  类型别名  -->
+    <typeAliases>
+        <!--这是相应的类进行  详细的指定别名-->
+        <!--<typeAlias type="cn.itheima.mybatis.pojo.User" alias="user" />&ndash;&gt;-->
+        <!--指定指定包下的别名
+                别名 包以其子包下所有类  开头字母大小写都行
+        -->
+        <package name="cn.itheima.mybatis.pojo" />   <!-- 每个包尽量独立  不要包含别的包名  -->
+    </typeAliases>
+
+    <!-- 和spring整合后 environments配置将废除         Spring  可对数据库进行相应的管理-->
+    <environments default="development">
+        <environment id="development">
+            <!-- 使用jdbc事务管理 -->
+            <transactionManager type="JDBC" />
+            <!-- 数据库连接池 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}" />
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8" />
+                <property name="username" value="root" />
+                <property name="password" value="www.cn.123" />
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--将user.xml   配置到   SqlMapConfig.xml   上
+    -->
+<!-- 引入  指定包下的Mapper.xml  文件-->
+    <mappers>
+        <!--<mapper resource="config/user.xml" />  &lt;!&ndash;此处并不能跳转到指定的文件    不知是否会存在什么问题 &ndash;&gt;-->
+        <package name="cn.itheima.mybatis.mapper"   />
+    </mappers>
+
+</configuration>

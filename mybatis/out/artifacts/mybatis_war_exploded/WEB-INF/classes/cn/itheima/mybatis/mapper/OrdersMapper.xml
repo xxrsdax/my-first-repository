@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace：命名空间，用于隔离sql，还有一个很重要的作用，后面会讲 -->
+<mapper namespace="cn.itheima.mybatis.mapper.OrdersMapper">
+
+    <resultMap id="Orders" type="orders">
+        <result column="user_id" property="userId"/>
+    </resultMap>
+    
+    <select id="findOrder" resultType="cn.itheima.mybatis.pojo.Orders" resultMap="Orders">
+        select id,user_id,number from orders
+    </select>
+
+    <!--===========一对一关联查询=============-->
+    <resultMap  type="orders" id="order">
+        <!--此处  具有小小的修改-->
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="number" property="number" />
+        <!--     property  属性        javaType   类名       -->
+        <association property="user" javaType="User">
+            <id column="user_id" property="id" />
+            <result column="username" property="username"/>
+        </association>
+    </resultMap>
+
+    <select id="selectOrders" resultType="Orders" resultMap="order" >
+
+        select o.id,o.user_id,o.number,u.username from orders o left join user u on o.user_id = u.id
+    </select>
+
+
+
+</mapper>

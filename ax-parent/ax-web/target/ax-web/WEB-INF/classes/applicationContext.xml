@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/aop
+						http://www.springframework.org/schema/aop/spring-aop.xsd
+						http://www.springframework.org/schema/tx
+						http://www.springframework.org/schema/tx/spring-tx.xsd
+                      http://cxf.apache.org/jaxws
+					    http://cxf.apache.org/schemas/jaxws.xsd">
+
+
+        <!--       读取db.properties 文件的相关信息           加载属性文件      -->
+    <context:property-placeholder location="classpath:db.properties" />
+
+    <!-- 第一步  配置数据库连接池   对象-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" >
+        <property name="driverClass" value="${jdbc.driverClass}"/>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}" />
+        <property name="user" value="${jdbc.user}" />
+        <property name="password" value="${jdbc.password}"/>
+     </bean>
+
+
+    <!-- 第二步  配置LocalSessionFactoryBean 对象
+                    Spring框架提供的用于整合hibernate的工厂bean
+    -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <!--  注入数据库连接池       （问题一：  LoaclSessionFactoryBean 为什么需要数据库连接池）      -->
+        <property name="dataSource" ref="dataSource"/>
+        <!--注入hibernate相关的属性配置-->
+        <property name="hibernateProperties">
+            <props>
+                <!--配置数据库方言-->
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+                <!--自动建表-->
+                <prop key="hibernate.hbm2ddl.auto" >update</prop>
+                <!--配置是否输出SQL语句-->
+                <prop key="hibernate.show_sql">true</prop>
+                <!--配置是否格式化  SQL 语句-->
+                <prop key="hibernate.format_sql">true</prop>
+            </props>
+        </property>
+        <!--引入hibernate的相关映射文件-->
+        <property name="mappingLocations">  <!-- 配置映射文件的位置 -->
+            <list>
+                <value>classpath:com/itheima/ax/pojo/*.xml</value>  <!-- maven 项目需要这样配置 -->
+            </list>
+        </property>
+    </bean>
+
+    <!--第四步  配置注解开发       开启注解扫描    -->
+    <context:component-scan base-package="com.itheima.ax"/>
+    <!-- 支持Spring注解-->
+    <context:annotation-config />
+
+    <!--第三步 配置事务管理器   核心事务管理器-->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+            <!--注入sessionFactory  对象 -->
+            <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+    <!--开启注解事务-->
+    <tx:annotation-driven/>
+
+    <jaxws:client address="http://192.168.45.1:8081/cxf/service/customer" serviceClass="com.itheima.ax.service.ICustomerService" id="myClient">
+
+    </jaxws:client>
+
+</beans>

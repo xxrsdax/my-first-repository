@@ -1,0 +1,3 @@
+dao\impl\CustomerDaoImpl.class
+dao\CustomerDao.class
+bean\Customer.class

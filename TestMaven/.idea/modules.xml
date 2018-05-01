@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Maven-Test/Maven-Test.iml" filepath="$PROJECT_DIR$/Maven-Test/Maven-Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maven-Test/Maven-dao/Maven-dao.iml" filepath="$PROJECT_DIR$/Maven-Test/Maven-dao/Maven-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maven-Test/Maven-service/Maven-service.iml" filepath="$PROJECT_DIR$/Maven-Test/Maven-service/Maven-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maven-Test/Maven-web/Maven-web.iml" filepath="$PROJECT_DIR$/Maven-Test/Maven-web/Maven-web.iml" />
+    </modules>
+  </component>
+</project>

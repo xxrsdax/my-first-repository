@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xmlns:soap="http://cxf.apache.org/bindings/soap"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+					http://www.springframework.org/schema/beans/spring-beans.xsd
+					http://cxf.apache.org/bindings/soap
+					http://cxf.apache.org/schemas/configuration/soap.xsd
+					http://cxf.apache.org/jaxws
+					http://cxf.apache.org/schemas/jaxws.xsd
+					http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/aop
+						http://www.springframework.org/schema/aop/spring-aop.xsd
+						http://www.springframework.org/schema/tx
+						http://www.springframework.org/schema/tx/spring-tx.xsd
+					">
+    <!-- 引入CXF Bean定义如下,早期的版本中使用 -->
+    <import resource="classpath:META-INF/cxf/cxf.xml" />
+    <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />
+    <import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+
+    <!--配置 HelloServiceImpl-->
+    <bean id="helloService" class="com.itheima.service.HelloServiceImpl"></bean>
+
+    <!--注册服务-->
+    <jaxws:server id="myService"   address="/cxfService">   <!-- 服务端访问的地址：不在是固定的了，而是基于运行的平台的-->
+        <jaxws:serviceBean>
+            <ref bean="helloService"></ref>
+        </jaxws:serviceBean>
+    </jaxws:server>
+
+</beans>
+

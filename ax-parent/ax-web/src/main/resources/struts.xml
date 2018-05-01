@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+    <!--struts2 的常量配置-->
+    <!--开发者模式-->
+    <constant name="struts.devMode" value="true"/>
+    <!--表示struts的对象交由Spring管理-->
+    <constant name="struts.objectFactory" value="spring"/>
+
+    <package name="basicstruts2" namespace="/"  extends="struts-default">
+       <interceptors>
+           <!--注册拦截器-->
+           <interceptor name="AxLoginInterception" class="com.itheima.ax.web.interceptor.AxLoginInterceptor">
+                <param name="excludeMethods">login,register</param>
+           </interceptor>
+            <!--设置拦截器栈-->
+           <interceptor-stack name="myStack">
+               <interceptor-ref name="AxLoginInterception"></interceptor-ref>
+               <interceptor-ref name="defaultStack"></interceptor-ref>
+           </interceptor-stack>
+       </interceptors>
+       <!--设置为默认拦截器栈-->
+        <default-interceptor-ref name="myStack" />
+
+        <!--设置全局结果集-->
+     <global-results>
+         <result name="login">/login.jsp</result>
+     </global-results>
+
+        <!-- 需要进行权限控制的页面访问  -->
+        <!--该配置   就是走 默认方法  跳转到  WEB-INF 下的jsp资源-->
+        <action name="page_*_*"  >
+            <result type="dispatcher" >/WEB-INF/pages/{1}/{2}.jsp</result>
+        </action>
+        <!--用户管理-->
+        <action name="UserAction_*"   class="userAction" method="{1}">
+            <result name="home" type="dispatcher">/index.jsp</result>
+        </action>
+        <!--派送员管理-->
+        <action name="StaffAction_*" class="staffAction" method="{1}">
+            <result name="list" >/WEB-INF/pages/base/staff.jsp</result>
+        </action>
+        <!--区域管理-->
+        <action name="RegionAction_*" class="regionAction" method="{1}">
+        </action>
+        <!--分区管理-->
+        <action name="SubareaAction_*" class="subareaAction" method="{1}">
+            <result name="list">/WEB-INF/pages/base/subarea.jsp</result>
+        </action>
+        <!--定区管理-->
+        <action name="DecidedzoneAction_*" class="decidedzoneAction" method="{1}">
+            <result name="list">/WEB-INF/pages/base/decidedzone.jsp</result>
+        </action>
+        <!--业务通知单管理-->
+        <action name="NoticebillAction_*" class="noticebillAction" method="{1}">
+            <result name="noticebill_add" >/WEB-INF/pages/qupai/noticebill_add.jsp</result>
+        </action>
+        <!--工作单-->
+        <action name="WorkordermanageAction_*" class="workordermanageAction" method="{1}">
+
+        </action>
+
+    </package>
+
+</struts>

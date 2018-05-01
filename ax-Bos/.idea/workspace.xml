@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ax-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae71e2cc-81fa-4f33-8d2c-7a965add844a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/ax-parent/target/" />
+    <ignored path="$PROJECT_DIR$/ax-parent/ax-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/ax-parent/ax-utils/target/" />
+    <ignored path="$PROJECT_DIR$/ax-parent/ax-dao/target/" />
+    <ignored path="$PROJECT_DIR$/ax-parent/ax-service/target/" />
+    <ignored path="$PROJECT_DIR$/ax-parent/ax-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="subarea.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="261" column="24" lean-forward="false" selection-start-line="261" selection-start-column="20" selection-end-line="261" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BOSRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/bos/realm/BOSRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ehcache.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/ehcache.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1749">
+              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>showSubareaWindow</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/bos/domain/Role.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-utils/src/main/java/com/itheima/ax/utils/BOSUtils.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/base/impl/BaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/IRoleDao.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/impl/RoleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/DecidedzoneServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/IDecidedzoneService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/IFunctionService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/IRegionService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/IRoleService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/IStaffService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/ISubareaService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/IWorkordermanageService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/WorkordermanageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/SubareaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/StaffServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/RegionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/NoticebillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/INoticebillService.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/FunctionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/jobs/MailJob.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/bos/web/action/base/BaseAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/bos/web/action/DecidedzoneAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/DecidedzoneAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/FunctionAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/NoticebillAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/RegionAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/RoleAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/StaffAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/SubareaAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/WorkordermanageAction.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/interceptor/BOSLoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Role.hbm.xml" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Function.hbm.xml" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/realm/BOSRealm.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/impl/FunctionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/db.properties" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/easyui/13-test.jsp" />
+        <option value="$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/applicationContext.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\develop\Maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ax-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ax-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ax-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ax-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="57" />
+    <option name="y" value="90" />
+    <option name="width" value="1794" />
+    <option name="height" value="927" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="bos" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ax-Bos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ax-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ax-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ax-parent" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\IDEA\NewCode\ax-Bos\ax-parent\ax-dao\src\main\java" />
+      <recent name="D:\develop\IDEA\NewCode\ax-Bos\ax-parent\ax-pojo\src\main\java" />
+      <recent name="D:\develop\IDEA\NewCode\ax-Bos\ax-parent\ax-service\src\main\java" />
+      <recent name="D:\develop\IDEA\NewCode\ax-Bos\ax-parent\ax-utils\src\main\java" />
+      <recent name="D:\develop\IDEA\NewCode\ax-Bos\ax-parent\ax-web\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.52">
+    <configuration name="Tomcat 7.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ax-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ax" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ax-Bos" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57829" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ax-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae71e2cc-81fa-4f33-8d2c-7a965add844a" name="Default" comment="" />
+      <created>1525094995490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525094995490</updated>
+      <workItem from="1525095001319" duration="4020000" />
+      <workItem from="1525137134343" duration="4388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8408000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="90" width="1794" height="927" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.108742006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13005051" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3615635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1822376" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/UserAction.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/WorkordermanageAction.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/interceptor/BOSLoginInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Function.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Region.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Staff.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Subarea.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Role.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Staff.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Decidedzone.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Region.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Subarea.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/User.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Workbill.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Workordermanage.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Role.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Noticebill.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Noticebill.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Function.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2137">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/ax/web/action/DecidedzoneAction.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/realm/BOSRealm.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/IUserDao.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/impl/UserDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/base/impl/BaseDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/base/IBaseDao.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/impl/DecidedzoneDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/impl/FunctionDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/impl/NoticebillDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/ax/dao/impl/RegionDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/ax/pojo/Decidedzone.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/DecidedzoneServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/ax/service/impl/FunctionServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/java/com/itheima/bos/web/action/base/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-utils/src/main/java/com/itheima/bos/utils/BOSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-pojo/src/main/java/com/itheima/bos/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-dao/src/main/java/com/itheima/bos/dao/base/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/pages/base/decidedzone.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/pages/base/staff.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/pages/base/region.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/pages/common/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/pages/portal/bug.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/easyui/13-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/webapp/WEB-INF/pages/base/subarea.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="261" column="24" lean-forward="false" selection-start-line="261" selection-start-column="20" selection-end-line="261" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-service/src/main/java/com/itheima/bos/realm/BOSRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ax-parent/ax-web/src/main/resource/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1749">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ax-web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ax-web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

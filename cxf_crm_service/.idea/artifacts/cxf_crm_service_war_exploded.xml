@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="cxf_crm_service:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/cxf_crm_service_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="cxf_crm_service/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="cxf_crm_service" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
